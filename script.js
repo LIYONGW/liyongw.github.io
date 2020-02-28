@@ -73,11 +73,6 @@ ctx.fillText("LEON", 425, 105);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
-ctx.font = "10px Arial";
-ctx.fillText("リ ヨ ン ・ ウ ォ ン グ", 225, 135);
-
-var c = document.getElementById("canvas");
-var ctx = c.getContext("2d");
 ctx.moveTo(413, 80);
 ctx.lineTo(602, 80);
 ctx.lineTo(602, 230);
@@ -94,6 +89,16 @@ var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
 ctx.font = "6px Arial";
 ctx.fillText("HOBBIES", 295, 300);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("WHOOP ASS IN BALL", 225, 205);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("the guitar", 225, 225);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
@@ -117,6 +122,16 @@ ctx.fillText("BIRTH_DAY", 410, 290);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("AUG 20", 400, 275);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("1999", 387, 255);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
 ctx.moveTo(329, 261);
 ctx.lineTo(372, 215);
 ctx.lineTo(486, 275);
@@ -130,6 +145,16 @@ var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
 ctx.font = "6px Arial";
 ctx.fillText("BIRTH_PLACE", 445, 245);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("MALAYSIA", 400, 225);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("KAMPUNG", 400, 215);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");

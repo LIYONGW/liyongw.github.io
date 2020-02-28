@@ -62,6 +62,22 @@ ctx.fillText("NICK_NAME", 540, 215);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("扬 扬 !", 425, 120);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("LEON", 425, 105);
+
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("リ ヨ ン ・ ウ ォ ン グ", 225, 135);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
 ctx.moveTo(413, 80);
 ctx.lineTo(602, 80);
 ctx.lineTo(602, 230);
@@ -339,3 +355,62 @@ ctx.lineTo(550, 710);
 ctx.stroke();
 
 
+
+
+
+var ctx = document.querySelector("canvas").getContext("2d"),
+    dashLen = 220, dashOffset = dashLen, speed = 5,
+    txt = "LEON", x = 10, i = 0.08;
+
+ctx.font = "50px arial"; 
+ctx.lineWidth = 5; ctx.lineJoin = "round"; ctx.globalAlpha = 3/3;
+ctx.strokeStyle = ctx.fillStyle = "black";
+
+(function loop() {
+  ctx.clearRect(x, 0, 30, 150);
+  ctx.setLineDash([dashLen - dashOffset, dashOffset - speed]); // create a long dash mask
+  dashOffset -= speed;                                         // reduce dash length
+  ctx.strokeText(txt[i], x, 90);                               // stroke letter
+
+  if (dashOffset > 0) requestAnimationFrame(loop);             // animate
+  else {
+    ctx.fillText(txt[i], x, 90);                               // fill final letter
+    dashOffset = dashLen;                                      // prep next char
+    x += ctx.measureText(txt[i++]).width + ctx.lineWidth * Math.random();
+    ctx.setTransform(1, 0, 0, 1, 0, 4 * Math.random());        // random y-delta
+    ctx.rotate(Math.random() * 0.005);                         // random rotation
+    if (i < txt.length) requestAnimationFrame(loop);
+  }
+})();
+
+var ctx = document.querySelector("canvas").getContext("2d"),
+    dashLen = 220, dashOffset = dashLen, speed = 0.9,
+    txt = "LEON", x = 10, i = 0.08;
+
+ctx.font = "50px arial"; 
+ctx.lineWidth = 5; ctx.lineJoin = "round"; ctx.globalAlpha = 3/3;
+ctx.strokeStyle = ctx.fillStyle = "black";
+
+(function loop() {
+  ctx.clearRect(x, 0, 30, 150);
+  ctx.setLineDash([dashLen - dashOffset, dashOffset - speed]); // create a long dash mask
+  dashOffset -= speed;                                         // reduce dash length
+  ctx.strokeText(txt[i], x, 90);                               // stroke letter
+
+  if (dashOffset > 0) requestAnimationFrame(loop);             // animate
+  else {
+    ctx.fillText(txt[i], x, 20);                               // fill final letter
+    dashOffset = dashLen;                                      // prep next char
+    x += ctx.measureText(txt[i++]).width + ctx.lineWidth * Math.random();
+    ctx.setTransform(1, 0, 0, 1, 0, 4 * Math.random());        // random y-delta
+    ctx.rotate(Math.random() * 0.005);                         // random rotation
+    if (i < txt.length) requestAnimationFrame(loop);
+  }
+})();
+
+
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+var image = document.getElementById("kampung");
+ctx.drawImage(image, 0, 0, 100, 100, canvas.width/2 -50, canvas.height/2 -50, 100,100);

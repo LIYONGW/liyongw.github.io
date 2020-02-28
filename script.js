@@ -231,6 +231,11 @@ ctx.fillText("ADMIRE_PERSON", 270, 390);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("KOBE r.ip", 260, 370);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
 ctx.moveTo(240, 320);
 ctx.lineTo(403, 402);
 ctx.lineTo(240, 402);
@@ -331,6 +336,8 @@ var ctx = c.getContext("2d");
 ctx.font = "6px Arial";
 ctx.fillText("RECENT_MEM", 97, 630);
 
+
+
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
 ctx.moveTo(10, 553);
@@ -391,8 +398,21 @@ ctx.stroke();
 
 
 
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("AMERICAN DAD", 260, 560);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("NATHAN FORYOU", 260, 530);
 
 
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("BOYS DONT CRY MAgaZINE", 260, 600);
 
 
 

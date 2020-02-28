@@ -423,6 +423,16 @@ var ctx = c.getContext("2d");
 ctx.font = "10px Arial";
 ctx.fillText("BOYS DONT CRY MAgaZINE", 260, 600);
 
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("WAKING LIFE", 480, 620);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("SPIDER", 260, 420);
+
 
 
 var c = document.getElementById("canvas");

@@ -194,6 +194,26 @@ ctx.fillText("PROUD_OF", 185, 480);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("8 STRAIGHT FGM", 130, 380);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("5/8 THRESS", 130, 390);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("4 BLOCKS", 130,400);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("PICKUP COME BACK WIN", 110, 420);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
 ctx.moveTo(10, 320);
 ctx.lineTo(240, 320);
 ctx.lineTo(240, 553);
@@ -228,6 +248,16 @@ ctx.fillText("LIVED_PLACES", 440, 390);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("BEIJING", 400, 350);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("SINGAPURA", 400, 370);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
 ctx.moveTo(240, 320);
 ctx.lineTo(403, 402);
 ctx.lineTo(603, 402);
@@ -242,6 +272,16 @@ var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
 ctx.font = "6px Arial";
 ctx.fillText("I_NEVER", 35, 540);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("DONE ANYTHING", 10, 500);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("ILLEGAL", 40, 515);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
@@ -261,6 +301,17 @@ var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
 ctx.font = "6px Arial";
 ctx.fillText("FREE_TIME", 135, 540);
+
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("PinG PONG", 110, 500);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("with spheres net", 110, 515);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");

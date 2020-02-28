@@ -433,6 +433,11 @@ var ctx = c.getContext("2d");
 ctx.font = "10px Arial";
 ctx.fillText("SPIDER", 260, 420);
 
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("trip", 180, 590);
+
 
 
 var c = document.getElementById("canvas");

@@ -397,6 +397,15 @@ ctx.stroke();
 
 
 
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("BRIAN MCKNIGHT TYPEBeat", 290, 450);
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.font = "10px Arial";
+ctx.fillText("NASI GORENG", 430, 500);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
